@@ -3,7 +3,7 @@ public class Solution {
         if(tokens.length == 0)
             return 0;
             
-        Deque<Integer> stack = new ArrayDeque<Integer>();
+        ArrayDeque<Integer> stack = new ArrayDeque<Integer>();
         
         for(String str: tokens)
         {
